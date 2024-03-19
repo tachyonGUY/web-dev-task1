@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+.profile {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.founder {
+    margin-top: 20px;
+}
+
+.vp {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+.team-member img {
+    width: 150px; /* Adjust image width as needed */
+    height: 150px; /* Adjust image height as needed */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure image fills the container */
+}
+
+.team-member h3,
+.team-member p {
+    margin: 5px 0; /* Add space between name and designation */
+}
+
+
+
